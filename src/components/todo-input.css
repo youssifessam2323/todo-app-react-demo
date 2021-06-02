@@ -1,0 +1,65 @@
+.form-input{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    position : relative
+}
+
+
+
+.todo-button { 
+    color: #ff6f47;
+    background: #f7fffe;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height : 6vh;
+    width : 6vw;
+    border : none
+}
+
+.todo-input { 
+    height : 6vh;
+    width : 50vw;
+    border: none;
+    padding : 1rem;
+}
+
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    height: 6vh;
+  }
+  
+  /* Custom Select */
+  .select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  select {
+    color: #ff6f47;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    width: 12rem;
+  }
+
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .80rem;
+    background: #ff6f47;
+    cursor: pointer;
+    pointer-events: none;
+  }
